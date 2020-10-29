@@ -229,10 +229,16 @@ int main(int argc, char *argv[])
     
     for(i=0;i<totalPaths;i++) {
 
+        row_number=i;
+
         for(j=numberOfColumns;j>0;j--){
 
             pathList.rows[i].values[j] = j;
 
+        }
+
+        if(row_number>numberOfRows){
+            
         }
 
         
