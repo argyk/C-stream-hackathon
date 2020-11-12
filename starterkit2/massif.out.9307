@@ -1,0 +1,656 @@
+desc: --stacks=yes --pages-as-heap=no
+cmd: ./a.out matrices10x10/matrix_10
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=10193953
+mem_heap_B=20308640
+mem_heap_extra_B=568328
+mem_stacks_B=752
+heap_tree=detailed
+n5: 20308640 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n2: 706240 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 705840 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 705840 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 705840 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 706240 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 705840 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 705840 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 705840 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=21280362
+mem_heap_B=21869120
+mem_heap_extra_B=1192520
+mem_stacks_B=752
+heap_tree=detailed
+n5: 21869120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n2: 1486480 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 1486080 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 1486080 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 1486080 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 1486480 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 1486080 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 1486080 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 1486080 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=27997208
+mem_heap_B=22814400
+mem_heap_extra_B=1570632
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=39521499
+mem_heap_B=24436880
+mem_heap_extra_B=2219624
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=52781784
+mem_heap_B=26303680
+mem_heap_extra_B=2966344
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=65162531
+mem_heap_B=28046480
+mem_heap_extra_B=3663464
+mem_stacks_B=752
+heap_tree=detailed
+n5: 28046480 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n2: 4575160 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 4574760 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 4574760 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 4574760 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 4575160 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 4574760 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 4574760 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 4574760 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=75061401
+mem_heap_B=29440080
+mem_heap_extra_B=4220904
+mem_stacks_B=752
+heap_tree=detailed
+n5: 29440080 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n2: 5271960 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 5271560 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 5271560 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 5271560 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 5271960 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 5271560 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 5271560 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 5271560 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=89214997
+mem_heap_B=31432480
+mem_heap_extra_B=5017864
+mem_stacks_B=752
+heap_tree=detailed
+n5: 31432480 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n2: 6268160 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 6267760 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 6267760 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 6267760 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 6268160 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 6267760 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 6267760 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 6267760 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=9
+#-----------
+time=103569309
+mem_heap_B=33453800
+mem_heap_extra_B=5826392
+mem_stacks_B=688
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=117873385
+mem_heap_B=35467920
+mem_heap_extra_B=6632040
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=129936945
+mem_heap_B=37165880
+mem_heap_extra_B=7311224
+mem_stacks_B=752
+heap_tree=detailed
+n5: 37165880 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n2: 9134880 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 9134480 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 9134480 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 9134480 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 9134840 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 9134440 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 9134440 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 9134440 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=138397377
+mem_heap_B=38357280
+mem_heap_extra_B=7787784
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=147836047
+mem_heap_B=39686240
+mem_heap_extra_B=8319368
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=157657958
+mem_heap_B=41069680
+mem_heap_extra_B=8872744
+mem_stacks_B=624
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=167879185
+mem_heap_B=42508720
+mem_heap_extra_B=9448360
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=178516667
+mem_heap_B=44006480
+mem_heap_extra_B=10047464
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=189583977
+mem_heap_B=45565040
+mem_heap_extra_B=10670888
+mem_stacks_B=512
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=196554462
+mem_heap_B=46546760
+mem_heap_extra_B=11063576
+mem_stacks_B=752
+heap_tree=detailed
+n5: 46546760 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n2: 13825320 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 13824920 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 13824920 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 13824920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 13825280 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 13824880 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 13824880 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 13824880 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=19
+#-----------
+time=207812686
+mem_heap_B=48132320
+mem_heap_extra_B=11697800
+mem_stacks_B=624
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=220038541
+mem_heap_B=49853920
+mem_heap_extra_B=12386440
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=232760515
+mem_heap_B=51645360
+mem_heap_extra_B=13103016
+mem_stacks_B=688
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=245998257
+mem_heap_B=53509440
+mem_heap_extra_B=13848648
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=259774033
+mem_heap_B=55449680
+mem_heap_extra_B=14624744
+mem_stacks_B=512
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=266869205
+mem_heap_B=56448800
+mem_heap_extra_B=15024392
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=275378559
+mem_heap_B=57647080
+mem_heap_extra_B=15503704
+mem_stacks_B=752
+heap_tree=detailed
+n5: 57647080 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 19375480 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 19375080 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 19375080 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 19375080 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 19375440 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 19375040 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 19375040 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 19375040 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=290222813
+mem_heap_B=59737440
+mem_heap_extra_B=16339848
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=305746730
+mem_heap_B=61923440
+mem_heap_extra_B=17214248
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=313744756
+mem_heap_B=63049760
+mem_heap_extra_B=17664776
+mem_stacks_B=624
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=321903362
+mem_heap_B=64198400
+mem_heap_extra_B=18124232
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=330223781
+mem_heap_B=65370320
+mem_heap_extra_B=18593000
+mem_stacks_B=512
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=338713076
+mem_heap_B=66565520
+mem_heap_extra_B=19071080
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=347371798
+mem_heap_B=67784640
+mem_heap_extra_B=19558728
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=356206867
+mem_heap_B=69028640
+mem_heap_extra_B=20056328
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=365220511
+mem_heap_B=70297520
+mem_heap_extra_B=20563880
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=380189678
+mem_heap_B=72405120
+mem_heap_extra_B=21406920
+mem_stacks_B=752
+heap_tree=detailed
+n5: 72405120 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 26754480 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 26754080 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 26754080 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 26754080 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 26754480 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 26754080 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 26754080 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 26754080 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=389556816
+mem_heap_B=73723920
+mem_heap_extra_B=21934440
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=399220551
+mem_heap_B=75084320
+mem_heap_extra_B=22478600
+mem_stacks_B=512
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=409077662
+mem_heap_B=76472000
+mem_heap_extra_B=23033672
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=419133556
+mem_heap_B=77887280
+mem_heap_extra_B=23599784
+mem_stacks_B=512
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=429392407
+mem_heap_B=79331840
+mem_heap_extra_B=24177608
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=439855758
+mem_heap_B=80804720
+mem_heap_extra_B=24766760
+mem_stacks_B=520
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=450531560
+mem_heap_B=82307280
+mem_heap_extra_B=25367784
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=461421925
+mem_heap_B=83840480
+mem_heap_extra_B=25981064
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=472532232
+mem_heap_B=85404320
+mem_heap_extra_B=26606600
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=483861810
+mem_heap_B=86999120
+mem_heap_extra_B=27244520
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=495423120
+mem_heap_B=88626400
+mem_heap_extra_B=27895432
+mem_stacks_B=528
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=502609440
+mem_heap_B=89637800
+mem_heap_extra_B=28299992
+mem_stacks_B=752
+heap_tree=peak
+n5: 89637800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 35370840 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 35370440 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 35370440 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 35370440 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 35370800 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 35370400 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 35370400 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 35370400 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=511825077
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=525648273
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=532365203
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=539082147
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=545799034
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=552515978
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=559232922
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=detailed
+n5: 89754560 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 35429200 0x109708: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 35428800 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 35428800 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 35428800 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n2: 35429200 0x109721: getNewPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n1: 35428800 0x109785: getNextPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+   n1: 35428800 0x109A47: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+    n0: 35428800 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 400 in 1 place, below massif's threshold (1.00%)
+ n0: 14171760 0x109BFE: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n1: 4723920 0x10991F: findPath (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+  n0: 4723920 0x109C15: main (in /home/argyris/Documents/github/C-stream-hackathon/starterkit2/a.out)
+ n0: 480 in 7 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=55
+#-----------
+time=565949809
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=572666666
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=579383596
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=586100483
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=592817427
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=599534371
+mem_heap_B=89754560
+mem_heap_extra_B=28346696
+mem_stacks_B=376
+heap_tree=empty
